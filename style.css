@@ -20,7 +20,7 @@ header {
 nav {
   width: 100%;
   height: 50px;
-  background-color: #1351B4;
+  background-color: #1351b4;
   color: rgb(255 255 255);
   padding: 10px 0px 10px 20vw;
   display: flex;
@@ -28,13 +28,11 @@ nav {
   align-items: center;
   margin: 0 auto;
   padding: 10px 0px 10px 20vw;
-
 }
 
 nav img {
   width: 100px;
   margin-left: 36%;
-
 }
 
 nav span {
@@ -68,7 +66,6 @@ nav span {
   font-weight: 700;
   color: #fff;
   font-family: Tahoma, Geneva, sans-serif;
-
 }
 
 .header_flex_item div span {
@@ -83,8 +80,7 @@ main {
 .flag {
   border-radius: 10px;
   padding: 20px;
-  margin:
-    20px 0px;
+  margin: 20px 0px;
   background-color: #fff;
 }
 
@@ -95,7 +91,6 @@ main {
   color: #212529;
   text-align: left;
   font-family: Arial, Helvetica, sans-serif;
-
 }
 
 .flag h1 {
@@ -142,6 +137,7 @@ ol li {
   font-weight: 700;
   font-size: 1.75rem;
   margin-top: 42px;
+  font-family: inherit;
 }
 
 .consulta span {
@@ -162,51 +158,235 @@ ol li {
   font-weight: 700;
   color: rgb(33, 37, 41);
   font-family: Arial, Helvetica, sans-serif;
-  margin-bottom: .5rem;
+  margin-bottom: 0.5rem;
+}
+
+.ultimo a {
+  text-decoration: none;
 }
 
 .form-control {
   display: block;
-    width: 100%;
-    height: calc(2.25rem + 2px);
-    padding: 0.375rem 0.75rem;
-    font-size: 1rem;
-    line-height: 1.5;
-    color: #495057;
-    background-color: #fff;
-    background-clip: padding-box;
-    border: 1px solid #ced4da;
-    border-radius: 0.25rem;
-    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+  width: 100%;
+  height: calc(2.25rem + 2px);
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
+
 .marginFake {
   margin-bottom: 1rem;
 }
+
 input::placeholder {
   color: #495057;
   opacity: 0.8;
   font-weight: 700;
 }
+
 .survey_button {
-  background-color: #1351B4;
-    border-radius: 4px;
-    color: #fff;
-    padding: 15px 0;
-    font-size: 16px;
-    text-align: center;
-    cursor: pointer;
-    margin-top: 24px;
+  background-color: #1351b4;
+  border-radius: 4px;
+  color: #fff;
+  padding: 15px 0;
+  font-size: 16px;
+  text-align: center;
+  cursor: pointer;
+  margin-top: 24px;
 }
+
 footer {
   background-color: #1351b4;
   margin-bottom: 0px;
   font-size: 12px;
   text-align: center;
-  color: #EFEFEF;
+  color: #efefef;
 }
-footer img{
+
+footer img {
   width: 100px;
   height: 43px;
   margin-top: 20px;
   margin-bottom: 20px;
+}
+
+footer p {
+  padding-bottom: 10px;
+}
+
+/* Comentarios */
+.comments {
+  width: 100%;
+  background-color: #eff1f3;
+  border-radius: 10px;
+  padding: 0 5px;
+  font-family: helvetica-neue, sans-serif;
+  margin-bottom: 30px;
+}
+
+.comments * {
+  margin: 3px 0;
+}
+
+.link-coments {
+  padding: 5px;
+}
+
+.link-coments span {
+  text-decoration: none;
+  font-family: Arial, sans-serif;
+  color: #3c5a96;
+  font-weight: normal;
+  font-size: 12px;
+}
+
+.link-coments span:hover {
+  text-decoration: underline;
+}
+
+.new-likes {
+  background-color: #fff;
+  border-top: 1px solid #e1e2e3;
+  padding: 5px 5px 5px 5px;
+  background-size: 16px;
+  background-repeat: no-repeat;
+  background-position: 5px center;
+}
+
+.color-blue {
+  font-size: 12px;
+}
+
+.color-blue:hover {
+  cursor: pointer;
+}
+
+.more {
+  background-color: #fff;
+  padding: 5px 5px 5px 23px;
+  border-top: 1px solid #e1e1e1;
+  background-size: 13px 13px;
+  background-position: 5px center;
+  background-repeat: no-repeat;
+}
+
+.left {
+  color: #3c5a96;
+  cursor: pointer;
+  font-weight: normal;
+  font-size: 12px;
+}
+
+.right {
+  color: #7d7d7f;
+  float: right;
+  font-weight: normal;
+  cursor: pointer;
+  font-family: helvetica-neue, sans-serif;
+  font-size: 12px;
+  text-align: left;
+}
+
+.item {
+  position: relative;
+  margin-top: 3px;
+  background-color: #fff;
+  padding: 5px 5px 5px 60px;
+  min-height: 60px;
+  box-sizing: border-box;
+  font-size: 12px;
+  text-align: left;
+}
+
+.item .profileimg {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  border-radius: 50%;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.comtxt {
+  color: #1d2129;
+  line-height: 16px;
+  font-weight: normal;
+  background: #eff1f3;
+  padding: 8px 10px;
+  border-radius: 18px;
+  display: block;
+}
+
+.name {
+  color: #3c5a96;
+  font-weight: 700;
+  font-size: 12px;
+  text-align: left;
+}
+
+.combot {
+  padding-top: 5px;
+}
+
+.combot .ago {
+  color: #86878c;
+  font-size: 0.95em;
+  font-weight: normal;
+}
+
+.combot .new-like {
+  color: #3c5a96;
+  font-size: 0.95em;
+  cursor: pointer;
+  font-weight: normal;
+}
+
+.combot .new-like:hover {
+  text-decoration: underline;
+}
+
+.combot .likes {
+  font-size: 12px;
+  text-align: left;
+  color: #3c5a96;
+  font-size: .95em;
+  cursor: pointer;
+  font-weight: normal;
+  padding: 5px;
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid rgba(0, 0, 0, .1);
+  box-sizing: content-box;
+  height: 0;
+  overflow: visible;
+}
+
+/* main {
+  position: relative;
+} */
+
+.poupap {
+  padding: 20px;
+  text-align: center;
+  background-color: pink;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.poupap p,
+.poupap span {
+  font-size: 20px;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.poupap span {
+  color: red;
 }
